@@ -13,6 +13,7 @@
     <None Remove="Fonts\Rubik-Medium.ttf" />
     <None Remove="Fonts\Rubik-Regular.ttf" />
     <None Remove="Images\customer_page.png" />
+    <None Remove="Images\gold background.jpeg" />
     <None Remove="Images\home_page.png" />
     <None Remove="Images\img_customer.png" />
     <None Remove="Images\img_home.png" />
@@ -38,6 +39,7 @@
     <Resource Include="Fonts\Rubik-Regular.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\gold background.jpeg" />
     <Content Include="Images\customer_page.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

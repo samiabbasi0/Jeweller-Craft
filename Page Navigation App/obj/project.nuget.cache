@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YSgJOIHzTs7fjoMmZ2zGgFmegqEyw+xxrvNP5fLeAMTbIIQ6A7+P1y/MHQyCeqwDZMKpFYvzcL4SDaUyuQJsCQ==",
+  "dgSpecHash": "Tu5Lw/24i+JqmbNw8lI9uhJXR/5npxANgZPO0SW9Jg/Wbvd31sP9xqG4MrAnVOrOOPRVkBDQgD+4QaohPqKwqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SAMI ABBASI\\OneDrive\\Desktop\\Jewellery Management\\Copy 3.0 Page-Navigation-using-MVVM-main [3]\\Source Code\\Page Navigation App\\Page Navigation App\\Page Navigation App.csproj",
+  "projectFilePath": "C:\\Users\\SAMI ABBASI\\OneDrive\\Desktop\\idk\\Page Navigation App\\Page Navigation App\\Page Navigation App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SAMI ABBASI\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\SAMI ABBASI\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",

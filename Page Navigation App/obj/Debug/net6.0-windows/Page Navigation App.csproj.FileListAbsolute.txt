@@ -402,3 +402,81 @@ C:\Users\SAMI ABBASI\OneDrive\Desktop\Jewellery Management\Copy 3.0 Page-Navigat
 C:\Users\SAMI ABBASI\OneDrive\Desktop\Jewellery Management\Copy 3.0 Page-Navigation-using-MVVM-main [3]\Source Code\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.pdb
 C:\Users\SAMI ABBASI\OneDrive\Desktop\Jewellery Management\Copy 3.0 Page-Navigation-using-MVVM-main [3]\Source Code\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.genruntimeconfig.cache
 C:\Users\SAMI ABBASI\OneDrive\Desktop\Jewellery Management\Copy 3.0 Page-Navigation-using-MVVM-main [3]\Source Code\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\ref\Page Navigation App.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Page Navigation App.exe
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\customer_page.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\home_page.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\img_customer.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\img_home.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\img_order.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\img_product.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\img_setting.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\img_shipment.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\img_transaction.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\order_page.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\product_page.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\setting_page.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\shipment_page.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\shutdown_def.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\shutdown_mo.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Images\transaction_page.png
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Page Navigation App.deps.json
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Page Navigation App.runtimeconfig.json
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Page Navigation App.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Page Navigation App.pdb
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.csproj.AssemblyReference.cache
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Styles\Button.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Styles\Image.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Styles\Page.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Styles\Text.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\AddItemWindow.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\CustomerWindow.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Window1.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\AddItemWindow.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Customers.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\CustomerWindow.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Home.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\LoginPage.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Orders.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Products.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Settings.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Shipments.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Transactions.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Window1.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App_Content.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App_MarkupCompile.cache
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App_MarkupCompile.lref
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\App.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Utilities\DataTemplate.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Customers.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Home.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\LoginPage.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Orders.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Products.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Settings.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Shipments.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\View\Transactions.baml
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.g.resources
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.AssemblyInfoInputs.cache
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.AssemblyInfo.cs
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.csproj.CoreCompileInputs.cache
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.sourcelink.json
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.csproj.CopyComplete
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\refint\Page Navigation App.dll
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.pdb
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\Page Navigation App.genruntimeconfig.cache
+C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\obj\Debug\net6.0-windows\ref\Page Navigation App.dll

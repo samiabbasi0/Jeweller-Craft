@@ -92,7 +92,7 @@ namespace Page_Navigation_App.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Page Navigation App;V1.0.0.0;component/view/additemwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Page Navigation App;component/view/additemwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\AddItemWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

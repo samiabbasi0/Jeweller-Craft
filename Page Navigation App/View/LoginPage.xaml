@@ -9,7 +9,7 @@
     <Grid>
         <!-- Background Image -->
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\SAMI ABBASI\Downloads\Gold-Pattern-Background.jpg" Stretch="UniformToFill" Opacity="0.35"/>
+            <ImageBrush ImageSource="C:\Users\SAMI ABBASI\OneDrive\Desktop\idk\Page Navigation App\Page Navigation App\Images\gold background.jpeg" Stretch="UniformToFill" Opacity="0.35"/>
         </Grid.Background>
 
         <!-- Main Grid for content -->
