@@ -1,0 +1,39 @@
+﻿<Window x:Class="Page_Navigation_App.View.AddItemWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Item" Height="272" Width="400" Icon="C:\Users\SAMI ABBASI\OneDrive\Desktop\Jewellery Management\Copy 3.0 Page-Navigation-using-MVVM-main [3]\Source Code\Page Navigation App\Page Navigation App\Images\gold-ingots.png" Background="AliceBlue" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="103"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" MinHeight="39.96"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" Grid.Column="0"  Text="Tag Number:" VerticalAlignment="Center" Margin="10,0,10,0" Height="16"/>
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtTagNumber" Margin="10,10,10,10"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Category:" VerticalAlignment="Center" Margin="10,0,10,0" Height="16"/>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtProduct" Margin="10,10,10,10"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Weight:" VerticalAlignment="Center" Margin="10,0,10,0" Height="16"/>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtWeight" Margin="10,10,10,10"/>
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Labour Cost:" VerticalAlignment="Center" Margin="10,0,10,0" Height="16"/>
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="txtLabourCost" Margin="10,10,10,10"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Quantity:" VerticalAlignment="Center" Margin="10,0,10,0" Height="16"/>
+        <TextBox Grid.Row="4" Grid.Column="1" x:Name="txtQuantity" Margin="10,10,10,10"/>
+
+        <Button Grid.Row="5" Content="Add" Click="Button_Add_Click" Background="#EADBC8" Margin="13,10,116,10" Grid.Column="1"/>
+    </Grid>
+</Window>

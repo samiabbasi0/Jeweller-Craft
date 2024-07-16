@@ -1,0 +1,109 @@
+﻿<UserControl x:Class="Page_Navigation_App.View.Orders"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:vm="clr-namespace:Page_Navigation_App.ViewModel"
+             mc:Ignorable="d"
+             d:DesignHeight="600"
+             d:DesignWidth="622"
+             Background="#909ea9"
+             Style="{StaticResource Page_Style}">
+
+    <UserControl.DataContext>
+        <vm:OrderVM />
+    </UserControl.DataContext>
+
+    <Grid Margin="15">
+        <!-- Main Content Grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="78.78" />
+            <RowDefinition Height="Auto" MinHeight="44" />
+            <RowDefinition Height="Auto" MinHeight="172" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!-- Page Header -->
+        <TextBlock Text="Reports" 
+                   FontSize="24"
+                   HorizontalAlignment="Left" 
+                   Margin="8,48,0,10" Width="108" FontFamily="Bodoni MT" FontWeight="Bold" />
+
+        <!-- Date Range Selection -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10" Width="577">
+            <TextBlock Text="From Date:" VerticalAlignment="Center" Margin="0 0 10 0" FontFamily="Century Schoolbook" FontWeight="Bold" Width="71" />
+            <DatePicker x:Name="fromDatePicker" SelectedDate="{Binding FromDate}" Margin="0 0 20 0" />
+            <TextBlock Text="To Date:" VerticalAlignment="Center" Margin="0 0 10 0" FontWeight="Bold" FontFamily="Century Schoolbook" />
+            <DatePicker x:Name="toDatePicker"  Margin="0 0 10 0" SelectedDate="{Binding ToDate}" Width="103" />
+            <Button Content="Generate Report" Click="GenerateReport_Click" Margin="0 0 20 0" FontFamily="Bodoni MT" FontWeight="Bold" Background="#FFF1EE96" Width="89"/>
+            <Button Content="Clear" Click="Clear_Click" Margin="0 0 20 0" FontFamily="Bodoni MT" FontWeight="Bold" Background="#FFF1EE96" Width="89"/>
+        </StackPanel>
+
+        <TextBlock x:Name="txtTotalOrders"  Text="Total Orders: " Padding="8" FontSize="14" FontWeight="Bold" Background="#FFCABE37" Margin="8,7,476,132" FontFamily="Bodoni MT" Grid.Row="2"/>
+        <TextBlock x:Name="txtInvestmentsMade"  Text="Investments Made: " Padding="8" FontSize="14" FontWeight="Bold" Background="#FFCABE37" Margin="286,7,167,132" FontFamily="Bodoni MT" Grid.Row="2"/>
+        <TextBlock x:Name="txtTotalSales"  Text="Total Sales: " Padding="8" FontSize="14" FontWeight="Bold" Background="#FFCABE37" Margin="121,7,311,132" FontFamily="Bodoni MT" Grid.Row="2"/>
+        <TextBlock x:Name="txtInvestmentsReturned"  Text="Investments Returned: " Padding="8" FontSize="14" FontWeight="Bold" Background="#FFCABE37" Margin="430,7,1,132" FontFamily="Bodoni MT" Grid.Row="2"/>
+
+        <!-- Top Customers DataGrid -->
+        <DataGrid x:Name="top_customers" Grid.Row="2" AutoGenerateColumns="False" Margin="10,70,309,228" Grid.RowSpan="2"
+                FontSize="12"
+                GridLinesVisibility="All"
+                HeadersVisibility="Column"
+                CanUserResizeColumns="True"
+                CanUserResizeRows="False"
+                CanUserReorderColumns="False"
+                SelectionMode="Extended"
+                SelectionUnit="FullRow" 
+                Background="#FFF8F6E3" 
+                BorderBrush="Black" 
+                Foreground="#FF020202" 
+                AlternatingRowBackground="#FFBDECEF">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Customer ID" Width="80" Binding="{Binding customer_id}" />
+                <DataGridTextColumn Header="Customer Name" Width="97" Binding="{Binding customer_name}" />
+                <DataGridTextColumn Header="Total Sales" Width="*" Binding="{Binding Total_sales}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Best Selling Products DataGrid -->
+        <DataGrid x:Name="top_products" Grid.Row="2"  Margin="336,70,0,228" Grid.RowSpan="2"
+            FontSize="12"
+                  AutoGenerateColumns="False"
+                  GridLinesVisibility="All"
+                  HeadersVisibility="Column"
+                  CanUserResizeColumns="True"
+                  CanUserResizeRows="False"
+                  CanUserReorderColumns="False"
+                  SelectionMode="Extended"
+                  SelectionUnit="FullRow" 
+                  Background="#FFF8F6E3" 
+                  BorderBrush="Black" 
+                  Foreground="#FF020202" 
+                  AlternatingRowBackground="#FFBDECEF">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Tag Number" Width="85" Binding="{Binding tag_number}" />
+                <DataGridTextColumn Header="Category" Width="85" Binding="{Binding category}" />
+                <DataGridTextColumn Header="Quantity" Width="*" Binding="{Binding Quantity}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Total Sales TextBlock -->
+        <Label Content="Top Customers:" HorizontalAlignment="Left" Margin="10,44,0,0" Grid.Row="2" VerticalAlignment="Top" Width="171" FontFamily="Century Schoolbook" FontWeight="Bold" Height="24"/>
+        <Label Content="Top Products:" HorizontalAlignment="Left" Margin="333,44,0,0" Grid.Row="2" VerticalAlignment="Top" Width="165" FontFamily="Century Schoolbook" FontWeight="Bold" Height="24"/>
+
+        <!-- Customized CartesianChart -->
+        <lvc:CartesianChart x:Name="categoryChart" Grid.Row="3" Margin="10,46,10,10" LegendLocation="Right" 
+                     Series="{Binding SalesByCategory}" ScrollBarFill="Red" Loaded="CartesianChart_Loaded" FontWeight="Bold">
+     
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="Category" Foreground="Black" FontWeight="Bold" Labels="{Binding CategoryLabels}" />
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Sales" Foreground="Black" FontWeight="Bold" />
+            </lvc:CartesianChart.AxisY>        </lvc:CartesianChart>
+    </Grid>
+</UserControl>
+

@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="Page_Navigation_App.View.Shipments"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="clr-namespace:Page_Navigation_App.ViewModel"
+             mc:Ignorable="d"
+             d:DesignHeight="600"
+             d:DesignWidth="622"
+             Background="#909ea9"
+             Style="{StaticResource Page_Style}">
+
+    <UserControl.DataContext>
+        <vm:ShipmentVM />
+    </UserControl.DataContext>
+    <Grid Margin="12">
+        <Border CornerRadius="29" Background="Gold" HorizontalAlignment="Left" Margin="450,99,0,0" VerticalAlignment="Top" Height="28" Width="138">
+            <Button Content="+  New Investment" Click="Button_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontFamily="Bodoni MT" FontSize="14" FontWeight="Bold">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="29">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="LightGoldenrodYellow" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Border>
+
+        <DataGrid x:Name="dataGrid"
+                  
+                  Margin="10,132,10,144"
+                  FontSize="12"
+                  AutoGenerateColumns="False" 
+                  GridLinesVisibility="All"
+                  HeadersVisibility="Column"
+                  CanUserResizeColumns="True"
+                  CanUserResizeRows="False"
+                  CanUserReorderColumns="False"
+                  SelectionMode="Single"
+                  SelectionUnit="CellOrRowHeader" Background="#FFF8F6E3" BorderBrush="Black" Foreground="#FF020202" AlternatingRowBackground="#FFBDECEF">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Investment No" Width="100" Binding="{Binding InvestmentNo}"/>
+                <DataGridTextColumn Header="Buying Date" Width="100" Binding="{Binding BuyingDate, StringFormat=d}"/>
+                <DataGridTextColumn Header="Buying Rate" Width="100" Binding="{Binding BuyingRate}"/>
+                <DataGridTextColumn Header="Weight" Width="100" Binding="{Binding Weight}"/>
+                <DataGridTextColumn Header="Status" Width="100" Binding="{Binding Status}"/>
+                <DataGridTextColumn Header="Selling Date" Width="100" Binding="{Binding SellingDate, StringFormat=d}"/>
+                <DataGridTextColumn Header="Selling Rate" Width="100" Binding="{Binding SellingRate}"/>
+                <DataGridTextColumn Header="Customer ID" Width="100" Binding="{Binding CustomerId}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Investments" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="153" FontWeight="Bold" FontFamily="Century Schoolbook" FontSize="22"/>
+        <CheckBox x:Name="CompletedCheckBox" Content="Completed" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Background="#FFF6FFC1" RenderTransformOrigin="0.497,0.066" Height="16" Width="85" BorderBrush="#FFB9AF46" Foreground="Black" FontFamily="Bodoni MT" FontSize="14" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <CheckBox x:Name="PendingCheckBox" Content="Pending" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Background="#FFF6FFC1" Width="93" BorderBrush="#FFB9AF46" Foreground="Black" FontFamily="Bodoni MT" FontSize="14" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+    </Grid>
+</UserControl>
